@@ -84,7 +84,14 @@
 								<button type="submit" class="btn btn-success">Login</button>
 							</div>
 						</div>
-
+						
+						<!-- ADDING TOKEND 
+						
+						IF WE ARE NOT USING SPRING MVC FORM:FORM TAG
+						<input type ="hidden" name="${_csrf.parameter.Name}" value="${_csrf.toker}" />
+						
+						-->
+		
 					</form:form>
 
 				</div>
