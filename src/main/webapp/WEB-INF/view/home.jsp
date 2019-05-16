@@ -26,22 +26,26 @@
 	
 	<hr>
 	
+	<security:authorize access = "hasRole('MANGER')">
 	<p>
 		
 		<a href="${pageContext.request.contextPath}/leaders">LeaderShip</a> Only for Managers
 	
 	</p>
-	
 	<hr>
+	</security:authorize>
 	
+	
+	<security:authorize access = "hasRole('ADMIN')">
 	<p>
 		
 		<a href="${pageContext.request.contextPath}/systems">IT System</a> Only for Admin
 	
 	</p>
-	
-	
 	<hr>
+	</security:authorize>
+	
+	
 	
 	
 	<!-- ADDING LOGOUT BUTTON -->
