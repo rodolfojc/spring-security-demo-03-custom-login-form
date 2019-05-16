@@ -31,6 +31,14 @@
 	
 	</p>
 	
+	<hr>
+	
+	<p>
+		
+		<a href="${pageContext.request.contextPath}/systems">IT System</a> Only for Admin
+	
+	</p>
+	
 	
 	<hr>
 	
