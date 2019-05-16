@@ -21,6 +21,7 @@
 		<br>
 		<br>
 		Role(s): <security:authentication property = "principal.authorities"/>
+	
 	</p>
 	
 	<hr>
