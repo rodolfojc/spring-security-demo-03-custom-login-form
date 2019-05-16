@@ -12,4 +12,12 @@ public class DemoController {
 		return"home";
 	}
 	
+	//ADD REQUEST MAPPING FOR LEADERS
+	@GetMapping("/leaders")
+	public String showsLeaders() {
+		
+		return "leaders";
+	}
+	
+	
 }

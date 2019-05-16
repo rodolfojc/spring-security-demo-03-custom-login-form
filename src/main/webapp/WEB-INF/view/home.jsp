@@ -25,6 +25,15 @@
 	
 	<hr>
 	
+	<p>
+		
+		<a href="${pageContext.request.contextPath}/leaders">LeaderShip</a> Only for Managers
+	
+	</p>
+	
+	
+	<hr>
+	
 	
 	<!-- ADDING LOGOUT BUTTON -->
 	<form:form action = "${pageContext.request.contextPath}/logout" method = "POST">
